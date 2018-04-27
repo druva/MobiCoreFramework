@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MobiCoreFramework"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "A very short description of dSwiftUtils."
   s.description  = "A goes very very short description of dSwiftUtils."
 
