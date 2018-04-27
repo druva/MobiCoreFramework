@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
     #s.source       = { :git => "http://EXAMPLE/MobiCoreFramework.git", :tag => "#{s.version}" }
-  s.source = { :path =>'~/Volumes/DriveA/code/Personal/snippet/ios/Swift/pods-swift/firstpod/testcore/MobiCoreFramework/' }
+  s.source = { :git =>'https://github.com/druva/MobiCoreFramework.git' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
