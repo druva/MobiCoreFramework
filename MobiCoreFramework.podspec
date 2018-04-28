@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MobiCoreFramework"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "A very short description of dSwiftUtils."
   s.description  = "A goes very very short description of dSwiftUtils."
 
-  s.homepage     = "https://github.com/druva/dSwiftUtils"
+  s.homepage     = "https://github.com/druva/MobiCoreFramework"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -33,13 +33,13 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
-    s.swift_version = '4.0'
+  s.swift_version = '4.0'
 
   #  When using multiple platforms
-   s.ios.deployment_target = "10.0"
+    s.ios.deployment_target = "10.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
+    s.tvos.deployment_target = "10.1"
 
 
     #s.source       = { :git => "http://EXAMPLE/MobiCoreFramework.git", :tag => "#{s.version}" }
